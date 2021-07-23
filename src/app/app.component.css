@@ -1,0 +1,74 @@
+body {
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.app-heading {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a6e9d5;
+}
+
+.add-student-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.card-form {
+  display: flex;
+  width: 25rem;
+  padding: 2rem;
+  flex-flow: column;
+  align-items: center;
+}
+
+.form {
+  width: 80%;
+}
+
+.form > div {
+  margin-bottom: .5rem;
+}
+
+.form-heading {
+  font-weight: 300;
+  padding-bottom: 1rem;
+}
+
+.form-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #a6e9d5;
+}
+
+.xml-input {
+  background-color: #a6e9d5;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.students-heading {
+  height: 10vh;
+}
+
+.students-heading > h2 {
+  padding: 0;
+}
+
+.students-container {
+  padding: 1rem 0;
+  display: inline-flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.required-field {
+  font-size: .8rem;
+}
